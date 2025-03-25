@@ -2,8 +2,72 @@ DIA: 18/03/2025.
 
 - Exploramos diferentes modelos de SDLC, analisando suas etapas e classificando-as em Estruturação, Execução e Finalização, compreendendo como cada fase contribui para o desenvolvimento de software.
 
-- Estudamos metodologias ágeis como Scrum, Kanban e XP, comparando-as com modelos tradicionais, como o Cascata, e entendendo suas vantagens em projetos flexíveis e iterativos.
+Abordagem Linear e Sequencial
+
+Vantagens:
+-Simplicidade e Clareza: A estrutura organizada em etapas facilita a compreensão e a gestão do projeto.
+
+-Documentação Abrangente: Cada fase é bem detalhada, o que contribui para a manutenção e possíveis transições de equipe.
+
+-Previsibilidade: Quando os requisitos estão bem definidos, é possível estimar prazos e custos com maior precisão.
+
+-Maior Controle: A separação por fases permite a identificação antecipada de possíveis problemas.
+
+Desvantagens:
+-Rigidez: Não é uma abordagem flexível; mudanças ao longo do projeto podem demandar retrabalho significativo.
+
+-Tempo de Execução: Como cada etapa precisa ser finalizada antes do início da próxima, o processo pode ser mais demorado.
+
+-Baixa Adaptabilidade: Não é a melhor escolha para projetos dinâmicos ou que exijam frequentes mudanças nos requisitos.
+
+-Menos Indicado para Trabalho em Equipe: Essa metodologia funciona melhor para projetos individuais, pois a colaboração contínua pode ser limitada.
+
+
+Abordagem Iterativa e Incremental
+
+Vantagens:
+-Flexibilidade: Permite ajustes contínuos ao longo do processo, conforme o feedback do cliente ou a evolução do projeto.
+
+-Entrega Progressiva: O produto é desenvolvido e entregue em partes funcionais (iterações), o que facilita a adaptação a novas necessidades.
+
+-Maior Envolvimento do Cliente: O usuário final participa ativamente, garantindo um resultado mais alinhado às suas expectativas.
+
+-Redução de Riscos: Problemas são detectados e resolvidos em ciclos menores, minimizando falhas críticas.
+
+
+Desvantagens:
+-Maior Tempo de Interação: A necessidade de revisões frequentes pode tornar o desenvolvimento mais longo.
+
+-Dependência do Cliente: A participação constante do cliente é essencial, o que pode ser um desafio se ele não estiver disponível.
+
+-Complexidade no Planejamento: A flexibilidade exige um gerenciamento mais cuidadoso para evitar dificuldades na estimativa de prazos e custos.
+
+-Risco de Sobrecarga: O excesso de revisões pode comprometer a visão geral do projeto, gerando retrabalho desnecessário.
+
+Modelo Espiral
+
+Vantagens:
+-Gestão de Riscos Aprimorada: O modelo permite uma análise contínua de riscos em cada ciclo, reduzindo a probabilidade de falhas críticas.
+
+-Flexibilidade para Mudanças: Adapta-se bem a projetos dinâmicos, pois permite ajustes ao longo do desenvolvimento.
+
+-Feedback Contínuo: Envolve revisões frequentes, garantindo que o produto final esteja alinhado às necessidades do cliente.
+
+-Desenvolvimento Iterativo: A entrega gradual do sistema permite a implementação de melhorias antes da versão final.
+
+Desvantagens:
+-Complexidade na Gestão: A necessidade de avaliações constantes pode tornar o gerenciamento do projeto mais exigente.
+
+-Custo Elevado: Como envolve revisões e testes frequentes, o modelo pode demandar mais recursos financeiros e tempo.
+
+-Maior Dependência de Especialistas: A análise de riscos exige profissionais qualificados, o que pode limitar sua aplicação em alguns contextos.
+
+-Dificuldade de Definição de Prazos e Custos: Como o projeto está em constante evolução, a estimativa precisa de tempo e orçamento pode ser um desafio.
+
 
 - Discutimos os quatro valores do Manifesto Ágil, que priorizam indivíduos e interações, software funcional, colaboração com o cliente e resposta a mudanças, em vez de processos rígidos, documentação extensa, contratos fixos e planejamento inflexível.
 
 - Finalizamos a aula com uma troca de ideias sobre SDLC e metodologias auxiliares, esclarecendo dúvidas e reforçando o aprendizado sobre a aplicação prática dos conceitos estudados.
+
+
+
