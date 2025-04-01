@@ -1,0 +1,49 @@
+Auto avaliação:Dev (B)
+##Retomada##
+Explicação dos tipos de técinicas que podem ser utilizadas no levantamento de requisitos como por exemplo, entrevistas, prototipações, etinografias, observação, questionamento e etc.
+
+##Diario##
+
+**Entrevista realizada com o Edmar, que é asssistente de aluno no instutito federal a entrevista foi
+realizada com uma explicação geral do assunto, seguido por uma sequencia de pergunta dos alunos,
+**O Edmar estava procurando um sistema para auxiliar o emprestimo de itens, afinal uma das dificuldades 
+é a perda de itens e a falta de controle.
+**Foi realizado uma serie de perguntas por grupo, nosso grupo utilizou a técnica de entervista.
+
+$REQUISITOS$
+
+Empréstimo de materiais
+controle de empréstimos no fichário (qualquer coisa) 
+colocada a identificação de quem pegou emprestado 
+colocar de quem emprestou (Professor ou servidor )
+aluno coloca a série, turma, horário de retirada e devolução
+professores também precisam colocar informações quando pega algo emprestado
+um laudo é feito via email, então o aluno tem  a possibilidade de assinar pelo gov caso necessário (possibilita o empréstimo de livros e outras coisas) 
+Possibilidade de mais de um empréstimo de material (Desde que esteja seguindo as normas)
+Material de consumo, tem seu uso único e depois desgastado
+Materiais de longa duração precisam estar entreguem da mesma forma na qual foram retirados, caso contrário é necessário pagar os danos
+empréstimo de livros da assistência ao aluno: livros didáticos (obrigatórios), já os livros da biblioteca são de acervo cultural.
+Necessário a assinatura do aluno para a retirada de algo, juntamente da data
+não havia o controle de devolução de itens superficiais, o que acabou gerando escassez de objetos 
+Tempo para realizar a devolução: Caso o aluno não tenha sido contemplado com o material, a devolução deve ser no mesmo dia(como os armários).
+Caso o aluno seja contemplado, o tempo é maior, porém o aluno toma responsabilidade pelo material  
+tem prazo de 3 meses para retirar o objeto perdido. no fim do ano, faziam a exposição desses materiais, no fim do ano, onde os alunos pegavam o que era deles com assinatura
+não devolução: encaminhamento para a direção.
+materiais como canetão: só professores podem retirar, mas pode ser retirado por alunos, se conversado e combinado com professores.
+Não há responsabilidade pelo patrimônio particular do aluno, somente materiais públicos da instituição
+Caso o material seja danificado, é encaminhado e o aluno recebe uma advertência, mas pode variar para cada item 
+
+
+$PERGUNTAS FEITAS$
+
+-Foi perguntado se o Edmar gostaria de um site ou aplicativo, e ele não possui uma preferencia.
+-Foi perguntado se somente os servidoores deveriam ter acesso ao sistema, e ele prefere que os alunos tambem tenham, para poderem se informar do estoque
+-O sistema deve ter acesso somente por alunos do instituto, e devem ser acoplados a outros sistemas do Instituto, como Sigga, Sigae entre outros.
+
+
+
+Analise de requisitos: Identifica e filtra quais requisitos devem ser realmente impletados no sistema, enetender, documentar, e validar os requisitos
+
+Requisitos: Necessidades, funcionalidades e restrições.
+
+#link para o acesso dos requitsitos: https://docs.google.com/document/d/1c1KubEjQ-R82bHYnJ6TnJ3zpVH4pThSVGMNle6K5dF0/edit?tab=t.0
