@@ -1,0 +1,206 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Autoavaliação: Dev(B)
+
+@Técinicas de levantamento de requisitos@
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+-Deixar o requisito rastreavel para que seja facil sia identificação, de modo que seja claro, focado e unico
+-Decompor o requisito em pequenas partes e depois refinar ele
+
+##FASE 1
+-O requisito deve ter código identificador EXEMPLO: 
+-LRP000 - Levantamento de requisito principal
+  -LRPE000- Levantamento de requisito especifico (decomposto)
+
+##FASE 2 
+-identificar os requisitos
+[LRP001] Realizar a gestão de reserva de quadras esportivas (EXEMPLO)
+
+##FASE3
+-Especificar o requisito principal em partes menores  (Empresas grandes usam, mas empresas pequenas costumam não usar por falta de tempo)
+
+[LRP001] Realizar a gestão de reserva de quadras esportivas (EXEMPLO)
+  [LRPE001] Realizar a gestão de reserva de quadras esportivas de beach (EXEMPLO)
+  [LRPE001] Realizar a gestão de reserva de quadras esportivas de futebol (EXEMPLO)
+
+##FASE 4
+-identificação dos atores
+Identificar e classificaros grupos de pessoas que vão utilizar o software
+EXEMPLO: Separar em Clientes e ADM, separando e dando um nivel de poder diferente no software, o cliente não tem o mesmo nivel de acesso do ADM
+
+##FASE 5
+-Complementação funcional
+associar as funcionalidades pedidas pelo ciente e associar ao requisito principal
+
+##FASE 6
+-Funcionalidade fora do escopo inicial
+Não se relaciona com o objetuvo principal, mas ele foi pedido pelo cliente, não é algo que deve ser tomado como prioridade, mas deve ser
+colocado cado tenha tempo e dinheiro funciona como algo "Desejavel".
+
+##FASE 7
+-Validação e Verificação
+validar os requisitios principais e especificos e ver se é algo realmente necessario para o projeto principal
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+@ REQUISITOS @
+–Empréstimo de materiais–
+
+[LRP001] Permitir empréstimo/devolução de materiais e o gerenciamento de achados e perdidos.
+  [LRE001] Permitir empréstimo de materiais.
+    [LRE001] Permitir devolução de materiais emprestados
+    [LRE002]Permitir gerenciamento de achados e perdidos
+
+–Usuários–
+
+[LRP002] - Cadastro e Identificação dos Usuários
+  [LRE001] - Permitir cadastro de usuários com campos específicos: nome, tipo (aluno, professor, técnico etc).
+    [LRE002] - Para alunos: registrar série e curso.
+    [LRE003] - Para professores: registrar turma que utilizará o material.
+    [LRE004] - Associar o perfil do usuário ao tipo de permissão no sistema.
+
+
+–Registros–
+
+[LRP003] - Permitir o registro do Empréstimo.
+  [LRE001] - Registrar data e horário da retirada.
+  [LRE002] - Registrar data e horário da devolução.
+  [LRE003] - Identificar a pessoa responsável pelo empréstimo.
+  [LRE004] - Permitir visualizar e editar o histórico de empréstimos do usuário.
+
+
+–Estoque–
+
+[LRP004] - Gerenciamento do Estoque
+  [LRE001] - Controlar a quantidade de itens disponíveis para empréstimo.
+  [LRE002]- Atualizar o estoque automaticamente conforme empréstimos e devoluções.
+  [LRE003] - Indicar quando um item estiver indisponível.
+  [LRE004] - Emitir relatório de materiais em uso, disponíveis e danificados.
+
+–Verifcação–
+
+[LRP005] - Verificação da Condição dos Materiais
+  [LRE001] - Registrar a condição do material no momento do empréstimo.
+  [LRE002]- Registrar a condição do material no momento da devolução.
+  [LRE003]- Permitir registro de danos com campo de descrição e, se necessário, imagens.
+  [LRE004] - Associar os danos ao histórico do item e ao usuário responsável.
+
+
+-Controle de tempo–
+
+[LRP006] - Controle de Tempo de Empréstimo
+  [LRE001] - Definir tempo de empréstimo por tipo de item.
+  [LRE002] - Impedir devolução antes do prazo mínimo (1 dia).
+  [LRE003] - Permitir personalização de prazos conforme demanda/contexto.
+  [LRE004] - Alertar sobre empréstimos prestes a vencer ou vencidos.
+
+
+-Justificativas–
+
+[LRP007] - Justificativas e Responsabilidades
+  [LRE001] - Solicitar justificativa para empréstimos de longa duração.
+  [LRE002] - Permitir preenchimento de justificativa no sistema, com campo descritivo.
+  [LRE003] - Exigir aprovação do orientador para empréstimos especiais.
+  [LRE004] - Permitir upload de termo de responsabilidade assinado pela SEPAE.
+
+
+--Tipos de usos–
+
+[LRP008] - Tipos de Uso (Pessoal vs. Coletivo)
+  [LRE001]  - Para uso pessoal, permitir mais liberdade no processo.
+  [LRE002]  - Para uso coletivo, exigir registro completo com mais campos   obrigatórios.
+  [LRE003] - Diferenciar os fluxos no sistema conforme o tipo de uso.
+  [LRE004]  - Identificar o tipo de uso ao iniciar o empréstimo.
+
+
+-Quantidade por empréstimos–
+
+[LRP009] - Quantidade de Materiais por Empréstimo
+  [LRE001] - Permitir múltiplos empréstimos por usuário.
+  [LRE002] - Exibir no momento do empréstimo a lista de itens já emprestados.
+  [LRE003] - Sugerir limite com base na média de uso, mas sem bloqueios rígidos.
+
+
+-Laudos–
+
+[RP010] - Inclusão e Registro de Laudos
+  [LRE001] - Permitir registro de laudos associados ao item.
+  [LRE002]- Indicar se o laudo veio por e-mail ou foi incluído diretamente.
+  [LRE003]- Registrar o responsável pela emissão do laudo (geralmente a Seção [Pedagógica).
+  [LRE004]- Associar laudos a materiais com histórico problemático.
+
+
+-Setores–
+
+[LRP011] - Empréstimos por Setores (sem técnico disponível)
+  [LRE001] - Permitir alocação direta de materiais a setores.
+  [LRE002] - Registrar motivo da alocação direta (ex: ausência de técnico).
+  [LRE003] - Marcar se o empréstimo foi realizado com ou sem mediação da Assistência.
+
+
+-Livros–
+
+[LRP012] - Empréstimo de Livros Didáticos pela Assistência
+  [LRE001] - Diferenciar no sistema os livros emprestados pela Assistência e pela Biblioteca.
+  [LRE002] - Associar os livros obrigatórios como responsabilidade da Assistência.
+  [LRE003] - Impedir empréstimo de livros didáticos pela Biblioteca, se já registrados na Assistência.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+@Analise de requisitos@
+
+##FASE 1
+-Documentação dos requisitos-
+-Feito por pessoas de alto nivel, que estão acima do projeto
+-devem seguir um padrão nacional para que não haja erros
+
+-Requisitos funcionais: Se relacionam com as funcionalidades do sistema
+
+##FASE 2
+-CADASTRO ENTIDADES-
+Cadastra informações dos sistemas, um resgitro de dados de entidades  
+(Entidade representa um objeto algo que podem ser separado em classes EXEMPLO: usuario, aluno, equipes )
+Entidade concreta: Algo fisico
+Entidade imaginaria: Algo que n é tocavel(como o TRABALHO)
+
+##FASE 3
+
+-IDENTIFICAÇÃO DE DEPENDENCIAS/CORRELAÇÕES
+
+Determina as relações entre as entidades do projeto
+
+EXEMPLO: para realizar uma reserva é necessario um cliente.
+
+##FASE 4
+
+-DEFINIÇÃO DE CAMPOS E CARACTERISTICAS-
+
+Define campos de caracteristicas das entidades, algo que deve ser informado
+Pode ser informado pelo cliente mas pode ser definido pelo analista.
+
+EXEMPLO: [ARR-001] Cadastro de cliente - campos *Nome,  *CPF, telefone
+
+
+##FASE 5
+-REGRAS DE NEGOCIO-
+limita os requisitos, sempre se relaciona aos requisitos funcionais.
+
+
+##FASE 6
+-IDENTIFICAÇÃO DOS REQUISITOS NÃO FUNCIONAIS-
+Não são uma funcionalidade mas se relacionam, podem se relacionar com: tempo, segurança, usabilidade, disponibilidade, compatibilidade
+servem para manter a qualidade do sistema 
+colocar somente se necessario
+
+##FASE 7
+-FORMATAÇÃO-
+coloca as outras fases em um padrão uma especie de documento, com o objetivo de organização.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
