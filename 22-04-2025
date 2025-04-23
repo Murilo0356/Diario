@@ -1,0 +1,84 @@
+Autoavaliação: DEV(B)
+===========================================================================================================================================
+  @@UML DIAGRAMAS@@
+UML = Unidade de modelagem de linguaem
+
+Existem dois tipodes de diagramas, sendo eles estruturais e comportamental
+
+estruturais: Estruturam on projeto, mas é mais dificil de mostrar para o cliente, exigindo muita pratíca e detalhe (Diagrma de classe)
+
+comportamental: Menos técnico mais facil para o cliente entender, sendo ideal para uma boa comunicação e entendimento (Diagrama de casos de uso)
+
+
+Include = Quando é obrigatório
+
+Extend = Quando é algo opcional
+
+Generalização: Relaciona atores ou casos de uso com comportamentos similares
+
+
+--CODIGOS DA AULA--
+
+@startuml
+
+left to right direction
+
+actor cli as "Cliente"
+actor adm as "Administrador"
+actor func as "Funcionario"
+
+
+rectangle "Sistema de Reserva de Quadra"{
+
+usecase "Consultar calendário" as cu01
+usecase "Buscar Reserva" as cu02
+usecase "Realizar reserva" as cu03
+usecase "Verificar disponibilidade" as cu04
+usecase "Cancelar reserva" as cu05
+usecase "Gerenciar todas as reservas" as cu06
+usecase "Cadastrar quadra" as cu07
+usecase "Gerenciar pagamento" as cu08
+usecase "Cancelar pagamento" as cu10
+usecase "Manutenir equipamentos" as cu09
+usecase "Escolher quadra" as cu11
+usecase "Reajendar reserva" as cu12
+
+cu03 .> cu04: <<include>>
+cu08.> cu03 : <<include>>
+cu03.> cu11 : <<include>>
+
+
+cu05 .> cu02: <<extends>>
+cu08 .> cu10: <<extends>>
+cu03 .> cu12: <<extends>>
+
+}
+
+cli --> cu01
+cli --> cu02
+cli --> cu03
+cli --> cu04
+cli --> cu05
+
+
+adm --|> func
+adm --|>  cli
+adm --> cu06
+adm --> cu07
+
+func --> cu08
+func --> cu09
+
+@enduml
+
+
+
+
+
+
+
+
+
+
+
+
